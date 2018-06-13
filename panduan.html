@@ -1,0 +1,21 @@
+# panduan_360
+判断360是否在“兼容模式”下
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>牛牛测试</title>
+<script>
+function whatBrowser(){
+    if (window.navigator.userAgent.indexOf('compatible') != -1){
+		document.getElementById("xixi").style.background="#000";
+	   alert('用什么鬼360"兼容模式"啊！要么给我用谷歌浏览器，要么给我滚回"极速模式"去使用！');
+	}
+}
+</script>
+</head>
+
+<body id="xixi" bgcolor="#fef4d9" onLoad="whatBrowser()">
+<p style="font-size:100px; margin:0 auto; width:1500px; height:120px; margin-top:20%;">啊哈哈！看到了吧？没想到吧!</p>
+</body>
+</html>
